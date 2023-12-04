@@ -96,7 +96,7 @@ section {
 }
 
 header {
-    background-color:191919;
+    background-color: 191919;
 }
 
 .header_txt {
@@ -149,7 +149,57 @@ header {
 .menu2 a:hover {
     background: #DBDFD0;
 }
-.main_left{
-    width: 100% / 2;
-    background: url(//img/main.jpg), lightgray 50% / cover no-repeat;
+
+.main_left {
+    width: 50% ;
+    background: url(/img/main.webp) no-repeat;
+    height: 800px;
 }
+
+.main_right {
+   
+    background-color: #996B60;
+    height: 800px;
+    padding-left: 60px;
+
+
+}
+
+.sec_tit {
+    margin-top: 312px;
+    color: #FFF;
+    font-family: "Liberation Serif";
+    font-size: 73px;
+    font-weight: 400;
+    line-height: 96px;
+    max-width: 457px;
+    margin-bottom: 34px;
+}
+
+.sec_txt {
+    color: #FFF;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    max-width: 572px;
+    margin-bottom: 35px;
+}
+
+.btn {
+    width: 180px;
+    height: 52px;
+    border: 1px solid #FFF;
+    border-radius: 0%;
+    color: #000;
+    text-align: center;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    padding: 18px 52px;
+  
+}
+
