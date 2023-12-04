@@ -151,13 +151,13 @@ header {
 }
 
 .main_left {
-    width: 50% ;
+    width: 50%;
     background: url(/img/main.webp) no-repeat;
     height: 800px;
 }
 
 .main_right {
-   
+
     background-color: #996B60;
     height: 800px;
     padding-left: 60px;
@@ -200,6 +200,27 @@ header {
     letter-spacing: 1px;
     text-transform: uppercase;
     padding: 18px 52px;
-  
+
 }
 
+/*wine*/
+
+.wine_cards {
+    display: flex;
+    height: 227px;
+    padding: 4px 15px 0.406px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 36px;
+    flex-shrink: 0;
+}
+
+.w_txt {
+    color: #000;
+    text-align: center;
+    font-family:" Roboto";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
