@@ -151,4 +151,5 @@ header {
 }
 .main_left{
     width: 100% / 2;
+    background: url(//img/main.jpg), lightgray 50% / cover no-repeat;
 }
