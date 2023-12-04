@@ -108,24 +108,29 @@ header {
     line-height: 18px;
     padding: 16px 70px 16px 70px;
 }
-.menu1 {
-    display :inline;
-	color: var(--neutral-07, #2C2F24);
 
-	font-size: 16px;
-	font-weight: 500;
-	line-height: 24px;
-	/* 150% */
-	padding: 4px 16px;
-	margin-right: 8px;
-	border-radius: 34px;
-	transition: 0.5s;
+.menu1 {
+    display: inline-flex;
+    padding-right: 226px;
+    justify-content: start;
+    align-items: flex-start;
+    gap: 60px;
+    flex-shrink: 0;
+    margin-right: 0 ;
+}
+
+.menu2 {
+    display: inline-flex;
+    padding-left: 226px;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 64px;
 }
 
 .menu1 li:last-child a {
-	margin-right: 0;
+    margin-right: 0;
 }
 
 .menu1 a:hover {
-	background: #DBDFD0;
+    background: #DBDFD0;
 }
