@@ -91,7 +91,7 @@ section {
 
 .flex {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -107,4 +107,25 @@ header {
     font-weight: 400;
     line-height: 18px;
     padding: 16px 70px 16px 70px;
+}
+.menu1 {
+    display :inline;
+	color: var(--neutral-07, #2C2F24);
+
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	/* 150% */
+	padding: 4px 16px;
+	margin-right: 8px;
+	border-radius: 34px;
+	transition: 0.5s;
+}
+
+.menu1 li:last-child a {
+	margin-right: 0;
+}
+
+.menu1 a:hover {
+	background: #DBDFD0;
 }
