@@ -96,7 +96,7 @@ section {
 }
 
 header {
-    background-color: #000;
+    background-color:191919;
 }
 
 .header_txt {
@@ -148,4 +148,7 @@ header {
 .menu1 a:hover,
 .menu2 a:hover {
     background: #DBDFD0;
+}
+.main_left{
+    width: 100% / 2;
 }
