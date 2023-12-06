@@ -140,11 +140,10 @@ header {
     text-transform: uppercase;
 }
 
+.menu1 li:last-child a,
 .menu2 li:last-child a {
     margin-right: 0;
 }
-menu1 li:last-child a,
-.
 .menu1 a:hover,
 .menu2 a:hover {
     background: #DBDFD0;
