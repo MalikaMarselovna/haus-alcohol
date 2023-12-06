@@ -96,7 +96,7 @@ section {
 }
 
 header {
-    background-color: 191919;
+    background-color: #191919;
 }
 
 .header_txt {
@@ -150,13 +150,13 @@ header {
 }
 
 .main_left {
-    width: 50%;
-    background: url(/img/main.webp) no-repeat;
+    width: calc(50% - 45px);
+    background: url(/img/main.jpg) no-repeat;
     height: 800px;
 }
 
 .main_right {
-
+    width: calc(50% - 45px);
     background-color: #996B60;
     height: 800px;
     padding-left: 60px;
@@ -165,7 +165,7 @@ header {
 }
 
 .sec_tit {
-    margin-top: 312px;
+    padding-top: 312px;
     color: #FFF;
     font-family: "Liberation Serif";
     font-size: 73px;
