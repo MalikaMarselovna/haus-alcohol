@@ -84,11 +84,6 @@ textarea {
 .dn {
     display: none;
 }
-
-section {
-    padding: 100px 0;
-}
-
 .flex {
     display: flex;
     justify-content: space-around;
@@ -287,4 +282,5 @@ header {
     font-size: 16px;
     font-weight: 400;
     line-height: 28px;
+    min-width: 364px;
 }
