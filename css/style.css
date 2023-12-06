@@ -36,7 +36,7 @@ img {
 }
 
 button,
-label {
+label,a {
     cursor: pointer;
 }
 
@@ -60,10 +60,6 @@ input[type="checkbox"] {
 
 input::placeholder {
     color: inherit;
-}
-
-button {
-    cursor: pointer;
 }
 
 input,
