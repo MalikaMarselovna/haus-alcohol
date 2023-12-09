@@ -285,7 +285,6 @@ header {
     line-height: 28px;
     min-width: 364px;
 }
-
 .btn_black {
     border: 1px solid #191919;
     background: #191919;
@@ -293,7 +292,7 @@ header {
 }
 /* intro*/
 .int_img {
-    
+
     width: calc(100% - 120px);
     height: 560px;   
 }
