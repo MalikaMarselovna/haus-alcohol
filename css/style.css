@@ -325,9 +325,6 @@ header {
     background: #191919;
     color: #FFF;
 }
-
-
-
 /* intro*/
 .int_img {
     width: calc(100% - 120px);
