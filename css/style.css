@@ -293,7 +293,8 @@ header {
 }
 /* intro*/
 .int_img {
-    width: calc(100% - 120px);
-    height: 560px;
     
+    width: calc(100% - 120px);
+    height: 560px;   
 }
+
