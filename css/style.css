@@ -323,14 +323,16 @@ header {
 .btn_black {
     border: 1px solid #191919;
     background: #191919;
-    
-    
-
+    color: #FFF;
 }
+
 
 /* intro*/
 .int_img {
     width: calc(100% - 120px);
     height: 560px;
     text-align: center;
+}
+.intro{
+    background-image: url();
 }
