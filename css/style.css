@@ -151,7 +151,6 @@ header {
 .main_in {
     margin-top: 20px;
 }
-
 .main_left {
     width: calc(100% - 50%);
     background: url(/img/main.jpg) no-repeat;
