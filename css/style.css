@@ -253,8 +253,8 @@ header {
 .line {
     border-bottom: solid 1px #BDBDBD;
     height: 1px;
-    width: calc(100% - 120px);
-    margin: 40px 60px;
+    width: 100%;
+    margin: 40px 0;
 }
 
 /*made*/
