@@ -347,8 +347,7 @@ header {
     line-height: 80px;
 }
 .intro_r{
-    display: flex;
-    justify-content: end;
+    padding-left: 343px;
 }
 .intror_txt {
     color: #000;
