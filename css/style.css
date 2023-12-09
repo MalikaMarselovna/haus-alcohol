@@ -333,9 +333,11 @@ header {
     width: calc(100% - 40px);
     height: 560px;
 }
-.intro_l{
+
+.intro_l {
     justify-content: start;
 }
+
 .introl_txt {
     text-align: right;
     color: #000;
@@ -343,4 +345,14 @@ header {
     font-size: 53px;
     font-weight: 400;
     line-height: 80px;
+}
+
+.intror_txt {
+    max-width: 548px;
+    color: #000;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    /* 177.778% */
 }
