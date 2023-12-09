@@ -142,7 +142,6 @@ header {
 .menu2 li:last-child a {
     margin-right: 0;
 }
-
 .menu1 a:hover,
 .menu2 a:hover {
     background: #DBDFD0;
