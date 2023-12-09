@@ -23,7 +23,6 @@ a {
 li {
     list-style: none;
 }
-
 ul li:last-child {
     margin-bottom: 0;
 }
