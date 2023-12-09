@@ -290,8 +290,8 @@ header {
 }
 /* intro*/
 .int_img {
-
-    width: calc(100% - 120px);
+    margin: 60px;
+    width: calc(100% - 40px);
     height: 560px;   
 }
 
