@@ -334,9 +334,7 @@ header {
     height: 560px;
 }
 .intro_l{
-    display: flex;
     justify-content: start;
-    align-items: start;
 }
 .introl_txt {
     color: #000;
