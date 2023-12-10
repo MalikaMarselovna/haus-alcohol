@@ -362,7 +362,7 @@ header {
 
 /*advantages*/
 .advan_r{
-    background-image: url(//img/advantages.jpg);
+    background: url(//img/advantages.jpg), lightgray 50% / contain no-repeat;
     width: 70%;
     height: 608px;
 }
