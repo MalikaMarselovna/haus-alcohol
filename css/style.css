@@ -296,10 +296,6 @@ header {
     cursor: pointer;
 }
 
-.made_card:hover {
-    box-shadow: 0 5px 30px 0 rgba(0, 0, 0, 0.2);
-}
-
 .card_tit {
     padding-top: 19px;
     color: #000;
@@ -361,12 +357,14 @@ header {
     font-size: 18px;
     font-weight: 400;
     line-height: 32px;
+    margin-bottom: 35px;
 }
 
 /*advantages*/
-.advan_in{
+.advan_in {
     margin-bottom: 50px;
 }
+
 .advan_r {
     background: url(//img/advantages.jpg), lightgray 50% / contain no-repeat;
     width: calc(70% - 55px);
@@ -410,7 +408,7 @@ header {
 }
 
 /*feedbacks*/
-.clients_feedbacks .container{
+.clients_feedbacks .container {
     height: 313px;
     background-color: #000000;
 }
@@ -459,4 +457,49 @@ header {
     font-weight: 400;
     line-height: 24px;
     text-transform: capitalize;
+}
+
+/*do*/
+.do_in {
+    display: inline-flex;
+    height: 589.781px;
+    padding: 60px 0px 60px 0px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 110px;
+    flex-shrink: 0;
+}
+
+.do_l {
+    background: url(//img/do.png), lightgray 50% / cover no-repeat;
+    height: 470px;
+    width: 550px;
+}
+
+.do_r {
+    display: flex;
+    width: 660px;
+    padding-top: 1.484px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.sec_tit2 {
+    color: #000;
+    font-family: "Libe Boroni";
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 80px;
+    margin-bottom: 150px;
+}
+
+.learn_more {
+    color: #000;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
 }
