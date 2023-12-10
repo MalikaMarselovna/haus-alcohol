@@ -410,19 +410,23 @@ header {
 }
 
 /*feedbacks*/
-.feedbacks {
+.clients_feedbacks .container{
+    height: 313px;
     background-color: #000000;
+}
+
+.feedbacks {
     display: flex;
     padding: 50px 0px;
     justify-content: center;
     align-items: flex-start;
     gap: 160px;
+    margin: 0 60px;
 }
 
 .feedback {
     width: 330px;
     height: 213px;
-    gap:17px;
 }
 
 .feed_txt1 {
@@ -433,6 +437,7 @@ header {
     font-size: 18px;
     font-weight: 400;
     line-height: 32px;
+    margin-bottom: 17px;
 }
 
 .feed_txt2 {
@@ -443,6 +448,7 @@ header {
     font-weight: 400;
     line-height: 21px;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .feed_txt3 {
