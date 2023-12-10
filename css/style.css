@@ -502,4 +502,10 @@ header {
     line-height: 18px;
     letter-spacing: 1px;
     text-transform: uppercase;
+    transition: 1s;
+    cursor: pointer;
+}
+.learn_more:hover{
+    box-shadow: 3px 3px rgb(215, 205, 215), -1em 0 .4em rgb(229, 229, 225);
+    font-size: 14px;
 }
