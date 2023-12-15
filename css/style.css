@@ -370,7 +370,7 @@ li a:hover {
 }
 
 .advan_r {
-    background: url(//img/advantages.jpg), lightgray 50% / contain no-repeat;
+    background-image: url(//img/advantages.jpg), lightgray 50%g / contain no-repeat;
     width: calc(70% - 55px);
     height: 608px;
     margin-left: 55px;
