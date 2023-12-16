@@ -726,11 +726,6 @@ footer .container {
     align-items: flex-start;
     gap: 40px;
 }
-
-
-
-
-
 .footer_list {
     display: flex;
     flex-direction: column;
