@@ -87,12 +87,6 @@ textarea {
     justify-content: center;
     flex-wrap: wrap;
 }
-
-header {
-    width: 100%;
-    background-color: #191919;
-}
-
 .header_txt {
     color: #000000;
     text-align: center;
@@ -105,8 +99,8 @@ header {
 
 .head {
     width: 100%;
-    position: fixed;
     background: #000;
+    
 }
 
 .menu1 {
@@ -140,6 +134,7 @@ header {
 
 .logo {
     animation: zoomInOut 5s infinite;
+
 }
 
 
@@ -157,8 +152,10 @@ header {
     color: #FFF;
     font-family: "Roboto";
     font-size: 12px;
+    font-style: normal;
     font-weight: 400;
     line-height: 18px;
+    /* 150% */
     letter-spacing: 1px;
     text-transform: uppercase;
     transition: 1s;
