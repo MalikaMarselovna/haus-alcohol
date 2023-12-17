@@ -3,21 +3,31 @@
 		max-width: 960px;
 	}
 }
+
 @media screen and (max-width: 990px) {
 	.container{
 		max-width: 750px;
 	}
 }
+
 @media screen and (max-width: 780px) {
 	.container{
 		max-width: 510px;
+		padding: 0 15px; /* Добавляем отступы по бокам для лучшего отображения на узких экранах */
 	}
 }
+
 @media screen and (max-width: 540px) {
 	.container{
 		max-width: 420px;
 	}
+
+	/* Пример: скрываем некоторые элементы при маленьком размере экрана */
+	.some-element {
+		display: none;
+	}
 }
+
 @media screen and (max-width: 450px) {
 	.container{
 		max-width: 100%;
