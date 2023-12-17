@@ -87,8 +87,11 @@ textarea {
     justify-content: center;
     flex-wrap: wrap;
 }
+.container1{
+    background: #000;
+}
 .header_txt {
-    color: #000000;
+    color: #fff;
     text-align: center;
     font-family: "Roboto";
     font-size: 25px;
@@ -99,8 +102,10 @@ textarea {
 
 .head {
     width: 100%;
-    background: #000;
-    
+    background:none;
+    position: relative;
+    z-index: 99 !important;
+
 }
 
 .menu1 {
@@ -169,7 +174,9 @@ textarea {
 li a:hover {
     font-size: 14px;
 }
-
+.main{
+    margin-top: -80px;
+}
 .main_in {
     margin-top: 20px;
 }
