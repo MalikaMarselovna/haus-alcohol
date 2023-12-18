@@ -582,16 +582,13 @@ footer .container {
     cursor: pointer;
     transition: 1s;
 }
-
 .footer_copy:hover {
     color: #fff;
     font-size: 18px;
 }
-
 .footer_big {
     margin-top: 45px;
 }
-
 .footer_left {
     width: 30%;
     display: flex;
