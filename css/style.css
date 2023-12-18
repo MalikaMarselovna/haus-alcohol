@@ -62,7 +62,6 @@ input[type="checkbox"] {
 input::placeholder {
     color: inherit;
 }
-
 input,
 textarea {
     display: block;
