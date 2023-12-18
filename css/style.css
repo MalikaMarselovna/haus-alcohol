@@ -242,7 +242,6 @@ li a:hover {
     font-size: 14px;
 
 }
-
 .btn:hover::before {
     opacity: 0.5;
 }
