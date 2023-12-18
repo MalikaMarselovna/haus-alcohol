@@ -652,7 +652,6 @@ footer .container {
     height: 53px;
     display: inline-flex;
 }
-
 .email {
     color: #818181;
     text-align: start;
@@ -663,7 +662,6 @@ footer .container {
     letter-spacing: 0.12px;
     text-transform: uppercase;
 }
-
 .submit {
     color: #FFF;
     text-align: end;
@@ -676,17 +674,14 @@ footer .container {
     transition: 1s;
     cursor: pointer;
 }
-
 .submit:hover {
     font-size: 14px;
 }
-
 .line_little {
     width: 440px;
     height: 1px;
     background: #8A8A8A;
 }
-
 .footer_right {
     display: inline-flex;
     height: 358px;
@@ -695,7 +690,6 @@ footer .container {
     transition: 1s;
     margin-left: 205px;
 }
-
 .footer_list a {
     display: flex;
     flex-direction: column;
