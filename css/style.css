@@ -621,7 +621,6 @@ footer .container {
     align-items: flex-start;
     gap: 25.297px;
 }
-
 .footer_maintit {
     color: #FFF;
     font-family: "Libe Boroni";
@@ -630,7 +629,6 @@ footer .container {
     line-height: 72px;
     margin-bottom: 12px;
 }
-
 .footer_tit {
     color: #FFF;
     font-family: " Roboto";
@@ -639,7 +637,6 @@ footer .container {
     line-height: 21px;
     text-transform: uppercase;
 }
-
 .footer_txt {
     width: 424px;
 
@@ -650,7 +647,6 @@ footer .container {
     line-height: 27px;
     margin-bottom: 14px;
 }
-
 .input {
     width: 440px;
     height: 53px;
