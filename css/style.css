@@ -164,7 +164,6 @@ textarea {
     text-transform: uppercase;
     transition: 1s;
 }
-
 .menu1 li:last-child a,
 .menu2 li:last-child a {
     margin-right: 0;
