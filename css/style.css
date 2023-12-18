@@ -77,11 +77,9 @@ textarea {
     padding: 0 15px;
 
 }
-
 .dn {
     display: none;
 }
-
 .flex {
     display: flex;
     justify-content: center;
