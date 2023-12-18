@@ -527,7 +527,6 @@ li a:hover {
     height: 125px;
     background: #000;
 }
-
 .mood_txt2 {
     color: #FFF;
     text-align: center;
@@ -537,7 +536,6 @@ li a:hover {
     line-height: 28px;
     margin-top: 23px;
 }
-
 .social_networks {
     display: flex;
     width: 550px;
