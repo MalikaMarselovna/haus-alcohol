@@ -120,10 +120,7 @@ textarea {
 
 .logo {
     animation: zoomInOut 5s infinite;
-
 }
-
-
 .menu2 {
     padding: 20px 0;
     display: inline-flex;
@@ -132,7 +129,6 @@ textarea {
     align-items: center;
     gap: 64px;
 }
-
 .menu1 a,
 .menu2 a {
     color: #FFF;
