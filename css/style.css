@@ -169,15 +169,11 @@ textarea {
 .menu2 li:last-child a {
     margin-right: 0;
 }
-
 li a:hover {
     font-size: 14px;
 }
 .main{
-    margin-top: -80px;
-}
-.main_in {
-    margin-top: 20px;
+    margin-top: -60px;
 }
 .main_left {
     width: calc(100% - 50%);
