@@ -99,13 +99,11 @@ textarea {
     line-height: 18px;
     padding: 16px 70px 16px 70px;
 }
-
 .head {
     width: 100%;
     background:none;
     position: relative;
     z-index: 99 !important;
-
 }
 .menu1 {
     padding: 20px 0;
