@@ -152,7 +152,6 @@ li a:hover {
 .main{
     margin-top: -60px;
 }
-
 .main_left {
     width: calc(100% - 50%);
     background: url(/img/main2.jpg) no-repeat;
@@ -307,7 +306,7 @@ li a:hover {
 .int_img {
     margin: 20px 0;
     width: 100%;
-    height: 560px;
+   
 }
 .intro_in {
     width: 100%;
@@ -342,13 +341,11 @@ li a:hover {
 .advan_r {
   
     width: calc(70% - 55px);
-    height: 608px;
     margin-left: 55px;
 }
 .advan_l {
     display: flex;
     width: 30%;
-    height: 555px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -361,6 +358,7 @@ li a:hover {
     font-size: 30px;
     font-weight: 400;
     line-height: 44px;
+
 }
 .advan_tit {
     color: #000;
@@ -391,7 +389,6 @@ li a:hover {
 }
 .feedback {
     width: 330px;
-    height: 213px;
 }
 .feed_txt1 {
     max-width: 310px;
@@ -432,8 +429,6 @@ li a:hover {
     flex-shrink: 0;
 }
 .do_l {
-    
-    height: 470px;
     width: 550px;
 }
 .do_r {
