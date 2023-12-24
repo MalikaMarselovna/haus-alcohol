@@ -154,7 +154,7 @@ li a:hover {
 }
 .main_left {
     width: calc(100% - 50%);
-    background: url(./img/main2.jpg) no-repeat;
+    background: url(/img/main2.jpg) no-repeat;
 }
 .main_right {
     width: calc(100% - 50%);
@@ -339,7 +339,7 @@ li a:hover {
     margin-bottom: 50px;
 }
 .advan_r {
-    background: url(./img/advantages.jpg) no-repeat;
+  
     width: calc(70% - 55px);
     height: 608px;
     margin-left: 55px;
@@ -431,7 +431,7 @@ li a:hover {
     flex-shrink: 0;
 }
 .do_l {
-    background: url(./img/do.png) no-repeat;
+    
     height: 470px;
     width: 550px;
 }
@@ -471,7 +471,7 @@ li a:hover {
 .mood .container {
     width: 100%;
     height: 568px;
-    background: url(./img/mood.jpg) no-repeat;
+    background: url(/img/mood.jpg) no-repeat;
 }
 .mood_in {
     display: flex;
