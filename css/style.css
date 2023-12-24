@@ -152,6 +152,7 @@ li a:hover {
 .main{
     margin-top: -60px;
 }
+
 .main_left {
     width: calc(100% - 50%);
     background: url(/img/main2.jpg) no-repeat;
