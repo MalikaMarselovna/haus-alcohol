@@ -152,6 +152,9 @@ li a:hover {
 .main{
     margin-top: -60px;
 }
+.main_in{
+    flex-direction: column;
+}
 .main_left {
     width: calc(100% - 50%);
     background: url(/img/main2.jpg) no-repeat;
@@ -429,12 +432,11 @@ li a:hover {
     flex-shrink: 0;
 }
 .do_l {
-    width: 550px;
+    width: 50%;
 }
 .do_r {
     display: flex;
     width: 50%;
-    padding-top: 1.484px;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
@@ -480,8 +482,7 @@ li a:hover {
     margin-left: 50px;
 }
 .mood_top {
-    width: 550px;
-    height: 303px;
+    width: 100%;
     background: #000;
 }
 .mood_tit {
@@ -518,8 +519,7 @@ li a:hover {
     background: #FFF;
 }
 .mood_bottom {
-    width: 550px;
-    height: 125px;
+    width: 100%;
     background: #000;
 }
 .mood_txt2 {
