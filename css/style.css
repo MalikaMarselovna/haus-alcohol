@@ -152,12 +152,9 @@ li a:hover {
 .main{
     margin-top: -60px;
 }
-.main_in{
-    flex-direction: column;
-}
 .main_left {
-    width: calc(100% - 50%);
-    background: url(/img/main2.jpg) no-repeat;
+    width:50%;
+    background: url(../img/main2.jpg) no-repeat;
 }
 .main_right {
     width: calc(100% - 50%);
