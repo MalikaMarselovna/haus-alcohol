@@ -371,7 +371,6 @@ textarea {
 }
 
 .advan_r {
-
     width: calc(70% - 55px);
     margin-left: 55px;
 }
@@ -553,17 +552,6 @@ textarea {
 
 .btn_white {
     margin: 26px 185px;
-    color: #000;
-    text-align: center;
-    font-family: "Roboto";
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    width: 180px;
-    height: 52px;
-    flex-shrink: 0;
     border: 1px solid #FFF;
     background: #FFF;
 }
@@ -571,6 +559,7 @@ textarea {
 .mood_bottom {
     width: 100%;
     background: #000;
+
 }
 
 .mood_txt2 {
@@ -590,6 +579,7 @@ textarea {
     justify-content: center;
     align-items: flex-start;
     gap: 21px;
+    margin-bottom: 20px;
 }
 
 .social_txt {
@@ -623,7 +613,7 @@ footer .container {
     margin-bottom: 55px;
 }
 
-.footer_copy {
+.footer_copies li a {
     color: rgba(255, 255, 255, 0.60);
     font-family: "Roboto";
     font-size: 16px;
@@ -728,17 +718,17 @@ footer .container {
     color: #FFF;
     text-align: end;
     font-family: "Roboto";
-    font-size: 12px;
+    font-size: 10px;
     font-weight: 400;
     line-height: 14px;
     letter-spacing: 0.12px;
-    text-transform: uppercase;
+    max-width: 50px;
     transition: 1s;
     cursor: pointer;
 }
 
 .submit:hover {
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .line_little {

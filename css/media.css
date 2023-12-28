@@ -101,6 +101,11 @@
 	.mood_bottom {
 		width: 100%;
 	}
+	.advan_tit2 ,
+	.advan_tit ,
+	.advan_txt {
+		text-align: start;
+	}
 
 
 }
