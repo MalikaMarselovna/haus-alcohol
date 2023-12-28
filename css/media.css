@@ -94,6 +94,7 @@
 	.container {
 		max-width: 750px;
 	}
+
 	.mood_top {
 		width: 100%;
 	}
@@ -101,8 +102,9 @@
 	.mood_bottom {
 		width: 100%;
 	}
-	.advan_tit2 ,
-	.advan_tit ,
+
+	.advan_tit2,
+	.advan_tit,
 	.advan_txt {
 		text-align: start;
 	}
@@ -114,7 +116,8 @@
 	.container {
 		width: 720px;
 	}
-	.main{
+
+	.main {
 		margin: 0;
 	}
 
@@ -234,17 +237,26 @@
 		/* Добавляем отступы по бокам для лучшего отображения на узких экранах */
 	}
 
-	.mood_top {
-		width: 100%;
+	.main_in {
+		flex-direction: column;
+		
 	}
-
-	.mood_bottom {
+	.main_right{
 		width: 100%;
+		margin-top: 0;
 	}
+	.main_left{
+		width: 100%;
 
+	}
+}
 
+.mood_top {
+	width: 100%;
+}
 
-
+.mood_bottom {
+	width: 100%;
 }
 
 @media screen and (max-width: 540px) {
