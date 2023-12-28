@@ -2,37 +2,45 @@ html,
 body {
     height: 100%;
 }
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 .clearfix::after {
     clear: both;
     content: "";
     display: table;
 }
+
 a {
     color: inherit;
     text-decoration: none;
 }
+
 li {
     list-style: none;
 }
+
 ul li:last-child {
     margin-bottom: 0;
 }
+
 img {
     display: block;
     width: 100%;
     height: auto;
     overflow: hidden;
 }
+
 button,
 label,
 a {
     cursor: pointer;
 }
+
 input,
 button,
 textarea {
@@ -45,6 +53,7 @@ textarea {
     font-size: inherit;
     font-weight: inherit;
 }
+
 input[type="radio"],
 input[type="checkbox"] {
     display: none;
@@ -53,11 +62,13 @@ input[type="checkbox"] {
 input::placeholder {
     color: inherit;
 }
+
 input,
 textarea {
     display: block;
     resize: none;
 }
+
 .container {
     max-width: 1330px;
     width: 100%;
@@ -65,17 +76,21 @@ textarea {
     margin: 0 auto;
     padding: 0 15px;
 }
+
 .dn {
     display: none;
 }
+
 .flex {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
-.container1{
+
+.container1 {
     background: #000;
 }
+
 .header_txt {
     color: #fff;
     text-align: center;
@@ -85,9 +100,10 @@ textarea {
     line-height: 18px;
     padding: 16px 70px 16px 70px;
 }
+
 .head {
     width: 100%;
-    background:none;
+    background: none;
     position: relative;
     z-index: 99 !important;
 }
@@ -113,48 +129,52 @@ textarea {
     animation: zoomInOut 5s infinite;
     position: absolute;
 }
-.menu {
+
+.menu__box {
     padding: 20px 0;
     display: inline-flex;
-    padding-left: 226px;
     justify-content: center;
     align-items: center;
     gap: 64px;
-    
+
 }
-.menu a {
+
+.menu__box li a {
     color: #FFF;
     font-family: "Roboto";
     font-size: 12px;
     font-weight: 400;
     line-height: 18px;
     letter-spacing: 1px;
-    text-transform: uppercase;
     transition: 1s;
-  
-   
+    transform: scale(1);
+
 }
-.menu1 li:last-child a,
-.menu2 li:last-child a {
-    margin-right: 0;
+
+.menu__box li:nth-child(4) {
+    padding-left: 100px;
 }
-li a:hover {
-    translate(scale);
-    font-size: 14px;
- 
+
+.menu__box li a:hover {
+    transform: scale(1.5);
+    color: #000
 }
-.main{
+
+.main {
     margin-top: -60px;
 }
+
 .main_left {
-    width:50%;
+    width: 50%;
     background: url(../img/main2.jpg) no-repeat;
 }
+
 .main_right {
     width: calc(100% - 50%);
     background-color: #996B60;
     padding-left: 60px;
 }
+
 .sect_tit {
     padding-top: 272px;
     color: #FFF;
@@ -165,6 +185,7 @@ li a:hover {
     max-width: 457px;
     margin-bottom: 34px;
 }
+
 .sec_txt {
     color: #FFF;
     font-family: "Roboto";
@@ -174,6 +195,7 @@ li a:hover {
     max-width: 572px;
     margin-bottom: 35px;
 }
+
 .btn {
     width: 160px;
     height: 47px;
@@ -191,10 +213,12 @@ li a:hover {
     transition: 1s;
     margin-bottom: 100px;
 }
+
 .btn:hover {
     box-shadow: 3px 3px rgb(215, 205, 215), -1em 0 .4em rgb(229, 229, 225);
     font-size: 14px;
 }
+
 .btn:hover::before {
     opacity: 0.5;
 }
@@ -204,11 +228,13 @@ li a:hover {
 .wine {
     margin: 60px;
 }
+
 .wine_cards {
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
 }
+
 .wcard {
     margin-top: 0 auto;
     display: flex;
@@ -220,6 +246,7 @@ li a:hover {
     align-items: center;
     gap: 36px;
 }
+
 .w_txt {
     color: #000;
     text-align: center;
@@ -228,6 +255,7 @@ li a:hover {
     font-weight: 400;
     line-height: 32px;
 }
+
 .line {
     border-bottom: solid 1px #BDBDBD;
     height: 1px;
@@ -246,6 +274,7 @@ li a:hover {
     line-height: 80px;
     margin-bottom: 24px;
 }
+
 .sec_desk {
     color: #000;
     text-align: center;
@@ -258,6 +287,7 @@ li a:hover {
     text-transform: uppercase;
     margin-bottom: 80px;
 }
+
 .made_card {
     display: flex;
     width: 382px;
@@ -272,6 +302,7 @@ li a:hover {
     transition: 1s;
     cursor: pointer;
 }
+
 .card_tit {
     padding-top: 19px;
     color: #000;
@@ -281,6 +312,7 @@ li a:hover {
     font-weight: 400;
     line-height: 44px;
 }
+
 .card_txt {
     color: #000;
     text-align: center;
@@ -290,6 +322,7 @@ li a:hover {
     line-height: 28px;
     min-width: 364px;
 }
+
 .btn_black {
     border: 1px solid #191919;
     background: #191919;
@@ -300,15 +333,18 @@ li a:hover {
 .int_img {
     margin: 20px 0;
     width: 100%;
-   
+
 }
+
 .intro_in {
     width: 100%;
-  
+
 }
+
 .intro_l {
     justify-content: start;
 }
+
 .introl_txt {
     text-align: right;
     color: #000;
@@ -317,9 +353,11 @@ li a:hover {
     font-weight: 400;
     line-height: 80px;
 }
+
 .intro_r {
     padding-left: 343px;
 }
+
 .intror_txt {
     color: #000;
     font-family: "Roboto";
@@ -328,15 +366,18 @@ li a:hover {
     line-height: 32px;
     margin-bottom: 35px;
 }
+
 /*advantages*/
 .advan_in {
     margin-bottom: 50px;
 }
+
 .advan_r {
-  
+
     width: calc(70% - 55px);
     margin-left: 55px;
 }
+
 .advan_l {
     display: flex;
     width: 30%;
@@ -346,6 +387,7 @@ li a:hover {
     gap: 25px;
     margin-top: 60px;
 }
+
 .advan_tit2 {
     color: #000;
     font-family: "Libe Boroni";
@@ -354,6 +396,7 @@ li a:hover {
     line-height: 44px;
 
 }
+
 .advan_tit {
     color: #000;
     font-family: "Libe Boroni";
@@ -361,6 +404,7 @@ li a:hover {
     font-weight: 400;
     line-height: 44px;
 }
+
 .advan_txt {
     color: #000;
     font-family: "Roboto";
@@ -368,11 +412,13 @@ li a:hover {
     font-weight: 400;
     line-height: 32px;
 }
+
 /*feedbacks*/
 .clients_feedbacks .container {
     height: 313px;
     background-color: #000000;
 }
+
 .feedbacks {
     display: flex;
     padding: 50px 0px;
@@ -381,9 +427,11 @@ li a:hover {
     gap: 160px;
     margin: 0 60px;
 }
+
 .feedback {
     width: 330px;
 }
+
 .feed_txt1 {
     max-width: 310px;
     color: #FFF;
@@ -394,6 +442,7 @@ li a:hover {
     line-height: 32px;
     margin-bottom: 17px;
 }
+
 .feed_txt2 {
     color: #FFF;
     text-align: center;
@@ -404,6 +453,7 @@ li a:hover {
     text-transform: uppercase;
     margin-bottom: 10px;
 }
+
 .feed_txt3 {
     color: #8A8A8A;
     text-align: center;
@@ -413,6 +463,7 @@ li a:hover {
     line-height: 24px;
     text-transform: capitalize;
 }
+
 /*do*/
 .do_in {
     display: inline-flex;
@@ -422,9 +473,11 @@ li a:hover {
     gap: 110px;
     flex-shrink: 0;
 }
+
 .do_l {
     width: 50%;
 }
+
 .do_r {
     display: flex;
     width: 50%;
@@ -432,6 +485,7 @@ li a:hover {
     justify-content: center;
     align-items: flex-start;
 }
+
 .sec_tit2 {
     color: #000;
     font-family: "Libe Boroni";
@@ -440,6 +494,7 @@ li a:hover {
     line-height: 80px;
     margin-bottom: 150px;
 }
+
 .learn_more {
     color: #000;
     font-family: "Roboto";
@@ -451,6 +506,7 @@ li a:hover {
     transition: 1s;
     cursor: pointer;
 }
+
 .learn_more:hover {
     box-shadow: 3px 3px rgb(215, 205, 215), -1em 0 .4em rgb(229, 229, 225);
     font-size: 14px;
@@ -461,6 +517,7 @@ li a:hover {
     width: 100%;
     background: url(/img/mood.jpg) no-repeat;
 }
+
 .mood_in {
     display: flex;
     width: 550px;
@@ -471,10 +528,12 @@ li a:hover {
     gap: 20px;
     margin-left: 50px;
 }
+
 .mood_top {
     width: 100%;
     background: #000;
 }
+
 .mood_tit {
     color: #FFF;
     text-align: center;
@@ -483,6 +542,7 @@ li a:hover {
     font-weight: 400;
     line-height: 80px;
 }
+
 .mood_txt {
     margin-top: 10px;
     color: #FFF;
@@ -492,6 +552,7 @@ li a:hover {
     font-weight: 400;
     line-height: 28px;
 }
+
 .btn_white {
     margin: 26px 185px;
     color: #000;
@@ -508,10 +569,12 @@ li a:hover {
     border: 1px solid #FFF;
     background: #FFF;
 }
+
 .mood_bottom {
     width: 100%;
     background: #000;
 }
+
 .mood_txt2 {
     color: #FFF;
     text-align: center;
@@ -521,6 +584,7 @@ li a:hover {
     line-height: 28px;
     margin-top: 23px;
 }
+
 .social_networks {
     display: flex;
     width: 550px;
@@ -529,6 +593,7 @@ li a:hover {
     align-items: flex-start;
     gap: 21px;
 }
+
 .social_txt {
     color: #FFF;
     font-family: " Roboto";
@@ -552,12 +617,14 @@ footer .container {
     gap: 125px;
     background: #000;
 }
+
 .footer_copies {
     display: inline-flex;
     align-items: flex-start;
     gap: 60px;
     margin-bottom: 55px;
 }
+
 .footer_copy {
     color: rgba(255, 255, 255, 0.60);
     font-family: "Roboto";
@@ -567,13 +634,16 @@ footer .container {
     cursor: pointer;
     transition: 1s;
 }
+
 .footer_copy:hover {
     color: #fff;
     font-size: 18px;
 }
+
 .footer_big {
     margin-top: 45px;
 }
+
 .footer_left {
     width: 30%;
     display: flex;
@@ -581,6 +651,7 @@ footer .container {
     align-items: flex-start;
     gap: 30px;
 }
+
 .footer_nav1 {
     display: flex;
     padding: 4px 60px 1px 0px;
@@ -590,6 +661,7 @@ footer .container {
     gap: 21px;
     transition: 1s;
 }
+
 .footer_nav2 {
     display: flex;
     width: 218px;
@@ -598,6 +670,7 @@ footer .container {
     align-items: flex-start;
     gap: 25.297px;
 }
+
 .footer_nav3 {
     display: flex;
     width: 224px;
@@ -606,6 +679,7 @@ footer .container {
     align-items: flex-start;
     gap: 25.297px;
 }
+
 .footer_maintit {
     color: #FFF;
     font-family: "Libe Boroni";
@@ -614,6 +688,7 @@ footer .container {
     line-height: 72px;
     margin-bottom: 12px;
 }
+
 .footer_tit {
     color: #FFF;
     font-family: " Roboto";
@@ -622,6 +697,7 @@ footer .container {
     line-height: 21px;
     text-transform: uppercase;
 }
+
 .footer_txt {
     width: 424px;
 
@@ -632,11 +708,13 @@ footer .container {
     line-height: 27px;
     margin-bottom: 14px;
 }
+
 .input {
     width: 440px;
     height: 53px;
     display: inline-flex;
 }
+
 .email {
     color: #818181;
     text-align: start;
@@ -647,6 +725,7 @@ footer .container {
     letter-spacing: 0.12px;
     text-transform: uppercase;
 }
+
 .submit {
     color: #FFF;
     text-align: end;
@@ -659,14 +738,17 @@ footer .container {
     transition: 1s;
     cursor: pointer;
 }
+
 .submit:hover {
     font-size: 14px;
 }
+
 .line_little {
     width: 440px;
     height: 1px;
     background: #8A8A8A;
 }
+
 .footer_right {
     display: inline-flex;
     height: 358px;
@@ -675,6 +757,7 @@ footer .container {
     transition: 1s;
     margin-left: 205px;
 }
+
 .footer_list a {
     display: flex;
     flex-direction: column;

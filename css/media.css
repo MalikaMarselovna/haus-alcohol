@@ -13,31 +13,12 @@
 		line-height: 18px;
 	}
 
-	.menu1 {
-		padding-right: 30px;
-		gap: 30px;
-	}
+	.menu {
 
-	.menu2 {
-		padding: 20px 0;
 		display: inline-flex;
 		padding-left: 30px;
-		justify-content: flex-end;
 		align-items: center;
 		gap: 30px;
-	}
-
-	.menu1 a,
-	.menu2 a {
-		color: #FFF;
-		font-family: "Roboto";
-		font-size: 12px;
-		font-weight: 400;
-		line-height: 18px;
-		/* 150% */
-		letter-spacing: 1px;
-		text-transform: uppercase;
-		transition: 1s;
 	}
 
 	.main_right {
