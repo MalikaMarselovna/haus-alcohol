@@ -91,16 +91,7 @@ textarea {
     position: relative;
     z-index: 99 !important;
 }
-.menu1 {
-    padding: 20px 0;
-    display: inline-flex;
-    padding-right: 226px;
-    justify-content: start;
-    align-items: center;
-    gap: 60px;
-    flex-shrink: 0;
-    margin-right: 0;
-}
+
 .logo {
     padding-top: 10px;
     position: relative;
@@ -120,34 +111,37 @@ textarea {
 
 .logo {
     animation: zoomInOut 5s infinite;
+    position: absolute;
 }
-.menu2 {
+.menu {
     padding: 20px 0;
     display: inline-flex;
     padding-left: 226px;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
     gap: 64px;
+    
 }
-.menu1 a,
-.menu2 a {
+.menu a {
     color: #FFF;
     font-family: "Roboto";
     font-size: 12px;
-    font-style: normal;
     font-weight: 400;
     line-height: 18px;
-    /* 150% */
     letter-spacing: 1px;
     text-transform: uppercase;
     transition: 1s;
+  
+   
 }
 .menu1 li:last-child a,
 .menu2 li:last-child a {
     margin-right: 0;
 }
 li a:hover {
+    translate(scale);
     font-size: 14px;
+ 
 }
 .main{
     margin-top: -60px;
