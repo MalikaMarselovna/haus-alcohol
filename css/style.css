@@ -110,7 +110,9 @@ textarea {
 
 .logo {
     padding-top: 10px;
-    position: relative;
+    animation: zoomInOut 5s infinite;
+    position: absolute;
+    text-align: center;
 }
 
 @keyframes zoomInOut {
@@ -125,10 +127,7 @@ textarea {
     }
 }
 
-.logo {
-    animation: zoomInOut 5s infinite;
-    position: absolute;
-}
+
 
 .menu__box {
     padding: 20px 0;
@@ -152,11 +151,10 @@ textarea {
 }
 
 .menu__box li:nth-child(4) {
-    padding-left: 100px;
+    padding-left: 300px;
 }
 
 .menu__box li a:hover {
-    transform: scale(1.5);
     color: #000
 }
 
