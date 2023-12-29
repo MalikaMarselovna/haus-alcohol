@@ -60,7 +60,7 @@
 		justify-content: center;
 		align-items: flex-start;
 		gap: 25px;
-		text-align: center;
+		text-align:start;
 		padding-left: 80px;
 	}
 
@@ -354,29 +354,23 @@
 	
 	.footer_right {
 		margin-left: 0;
-	}
-	
-	.footer_list a {
-		display: flex;
-		flex-direction: column;
-		align-items: flex-start;
-		color: rgba(255, 255, 255, 0.60);
-		font-family: "Roboto";
-		font-size: 12px;
-		font-weight: 400;
-		line-height: 18px;
-		letter-spacing: 1px;
-		text-transform: uppercase;
-		transition: 1s;
-		padding-bottom: 21px;
-	}
-	
+	}	
 }
 
 @media screen and (max-width: 780px) {
 	.container {
 		max-width: 510px;
 		/* Добавляем отступы по бокам для лучшего отображения на узких экранах */
+	}
+	.mood_in{
+		width: 100%;
+		margin-left: 0;
+	}
+	.btn_white{
+		margin-left:150px;
+	}
+	.social_networks{
+		margin-left: 0;
 	}
 
 	.main_in {
@@ -424,8 +418,13 @@
 	.some-element {
 		display: none;
 	}
+	.feed_txt1{
+		max-width: 300px;
+	}
+	.btn_white{
+		margin-left:75px;
+	}
 }
-
 @media screen and (max-width: 450px) {
 	.container {
 		max-width: 100%;
