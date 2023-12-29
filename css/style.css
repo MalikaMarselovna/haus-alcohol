@@ -534,7 +534,7 @@ textarea {
 
 .mood_in {
     display: flex;
-    width: 550px;
+    width: 40%;
     padding: 59.703px 0px 60.297px 0px;
     flex-direction: column;
     justify-content: center;
@@ -591,9 +591,7 @@ textarea {
 
 .social_networks {
     display: flex;
-    width: 550px;
     padding: 6.703px 134px 2.297px 134px;
-    justify-content: center;
     align-items: flex-start;
     gap: 21px;
     margin-bottom: 20px;
