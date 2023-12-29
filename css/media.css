@@ -246,6 +246,130 @@
 		margin-bottom: 30px;
 		text-align: left;
 	}
+	footer .container {
+		gap: 100px;
+	}
+	
+	.footer_copies {
+		display: inline-flex;
+		align-items: flex-start;
+		gap: 60px;
+		margin-bottom: 55px;
+	}
+	
+	.footer_copies li a {
+		font-size: 14px;
+	}
+	
+	.footer_copy:hover {
+		color: #fff;
+		font-size: 15px;
+	}
+	
+	.footer_big {
+		margin-top: 45px;
+	}
+	
+	.footer_left {
+		width: 30%;
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 15px;
+	}
+	
+	.footer_nav1 {
+		display: flex;
+		padding: 4px 60px 1px 0px;
+		flex-direction: column;
+		justify-content: center;
+		align-items: flex-start;
+		gap: 21px;
+		transition: 1s;
+	}
+	
+	.footer_nav2 {
+		display: flex;
+		width: 218px;
+		padding-bottom: 156px;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 21px;
+	}
+	
+	.footer_nav3 {
+		display: flex;
+		width: 224px;
+		padding-bottom: 132px;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 21px;
+	}
+	
+	.footer_maintit {
+		color: #FFF;
+		font-family: "Libe Boroni";
+		font-size: 42px;
+		font-weight: 400;
+		line-height: 72px;
+		margin-bottom: 12px;
+	}
+	
+	.footer_tit {
+		font-size: 14px;
+	}
+	
+	.input {
+		width: 100%;
+		height: 53px;
+		display: inline-flex;
+	}
+	
+	.email {
+		color: #818181;
+		text-align: start;
+		font-family: "Roboto";
+		font-size: 9px;
+		font-weight: 400;
+		line-height: 14px;
+		letter-spacing: 0.12px;
+		text-transform: uppercase;
+	}
+	
+	.submit {
+		color: #FFF;
+		text-align: end;
+		font-family: "Roboto";
+		font-size: 10px;
+		font-weight: 400;
+		line-height: 14px;
+		letter-spacing: 0.12px;
+		max-width: 50px;
+		transition: 1s;
+		cursor: pointer;
+	}	
+	.line_little {
+		width: 100%;
+	}
+	
+	.footer_right {
+		margin-left: 0;
+	}
+	
+	.footer_list a {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		color: rgba(255, 255, 255, 0.60);
+		font-family: "Roboto";
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 18px;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		transition: 1s;
+		padding-bottom: 21px;
+	}
 	
 }
 
